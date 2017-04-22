@@ -28,45 +28,9 @@ insert_film();
 <body>
 <!-----navbar------>
 <div class="container">
-    <script>
-        function showUser(str) {
-
-            if (str == "") {
-                document.getElementById("txtHint").innerHTML = "";
-                return;
-            }
-            if (window.XMLHttpRequest) {
-                // code for IE7+, Firefox, Chrome, Opera, Safari
-                xmlhttp = new XMLHttpRequest();
-            } else { // code for IE6, IE5
-                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP").fadeIn();
-            }
-            xmlhttp.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-
-                    //parse json
-                    responseObject = JSON.parse(xmlhttp.responseText);
-                    var newContent = '';
-                    for (var i = 0; i < responseObject.weeks.length; i++) {
-                        newContent += '<div class="weeks">';
-                        newContent += '<h1><b>' + responseObject.weeks[i].subject + '</b></h1><br>';
-                        newContent += '<h2>' + responseObject.weeks[i].name + '</h2><br>';
-                        newContent += '<h4>' + responseObject.weeks[i].descr + '</h4>';
-                        newContent += '<div>';
-                    }
-                    document.getElementById("txtHint").innerHTML = newContent;
-                    // document.getElementById("txtHint").innerHTML=this.responseText;
-                }
-            }
-            xmlhttp.open("GET", "db.php?q=" + str, true);
-            xmlhttp.send(null);
-
-            $(function () {
-                $("#txtHint").hide().fadeIn("slow");
-            });
-
-        }
-    </script>
+   <!-- Ajax code deleted from this section -->
+    
+    <!-- Ajax code deleted from this section -->
     <!-- Sidebar -->
     <!-- Static navbar -->
     <div class="navbar navbar-default">
