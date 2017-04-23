@@ -130,3 +130,14 @@ insert_film();
     </div>
 </footer>
 </html>
+<!-- Connect to database -->
+
+<?php
+include ("hiddenData.php");
+	$dbcon = new mysqli($servername,$username,$password,$database);
+	// Check connection
+	if ($dbcon->connect_error) {
+		die("Connection failed: " . $dbcon->connect_error);
+	}
+
+?>
