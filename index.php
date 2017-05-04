@@ -47,34 +47,13 @@ insert_film();
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a onclick="showUser(1); return false;" href="#">WEEK 1</a>
+                    <a onclick="showUser(1); return false;" href="#">Blog</a>
                 </li>
                 <li>
-                    <a onclick="showUser(2); return false;" href="#">WEEK 2</a>
+                    <a onclick="showUser(2); return false;" href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a onclick="showUser(3); return false;" href="#">WEEK 3</a>
-                </li>
-                <li>
-                    <a onclick="showUser(4); return false;" href="#">WEEK 4</a>
-                </li>
-                <li>
-                    <a onclick="showUser(5); return false;" href="#">WEEK 5</a>
-                </li>
-                <li>
-                    <a onclick="showUser(6); return false;" href="#">WEEK 6</a>
-                </li>
-                <li>
-                    <a onclick="showUser(7); return false;" href="#">WEEK 7</a>
-                </li>
-                <li>
-                    <a onclick="showUser(8); return false;" href="#">WEEK 8</a>
-                </li>
-                <li>
-                    <a onclick="showUser(9); return false;" href="#">WEEK 9</a>
-                </li>
-                <li>
-                    <a onclick="showUser(10); return false;" href="#">WEEK 10</a>
+                    <a onclick="showUser(3); return false;" href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
