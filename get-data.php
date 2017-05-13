@@ -1,7 +1,7 @@
 <?php
 session_start();
 //Database Connection
-$con = mysqli_connect('localhost', 'root', '', 'jQuery') or die(mysqli_error());
+$con = mysqli_connect('localhost', 'root', '', 'userTable') or die(mysqli_error());
 
 if (!$con) {
     echo "Unable to connect to DB: " . mysqli_error();
@@ -21,6 +21,7 @@ $num_row = mysqli_num_rows($res);
 $row = mysqli_fetch_assoc($res);
 if ($num_row == 1) {
     echo 'true';
+    //Create Session for those three variable
     $_SESSION['email'] = $row['email'];
     $_SESSION['oId'] = $row['orgid'];
     $_SESSION['auth'] = $row['oauth'];
