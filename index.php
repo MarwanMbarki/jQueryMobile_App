@@ -26,7 +26,7 @@ insert_film();
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<!-----navbar------>
+<!---navbar-->
 <div class="container">
    <!-- Ajax code deleted from this section -->
     
@@ -47,7 +47,7 @@ insert_film();
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a onclick="showUser(1); return false;" href="#">Blog</a>
+                    <a href="#">Blog</a>
                 </li>
                 <li>
                     <a onclick="showUser(2); return false;" href="#">Portfolio</a>
