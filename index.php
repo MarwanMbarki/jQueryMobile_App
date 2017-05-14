@@ -50,10 +50,10 @@ insert_film();
                     <a href="#">Blog</a>
                 </li>
                 <li>
-                    <a onclick="showUser(2); return false;" href="#">Portfolio</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a onclick="showUser(3); return false;" href="#">Contact Us</a>
+                    <a href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
