@@ -14,7 +14,7 @@
 
 <div data-role="page" id="pageone">
     <div data-role="header">
-        <h1>MM App</h1>
+        <h1>Jquery Login Application</h1>
     </div>
 
     <div data-role="main" class="ui-content">
