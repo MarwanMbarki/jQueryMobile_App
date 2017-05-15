@@ -74,12 +74,9 @@ insert_film();
         <div class="row">
             <div class="col-md-12 well">
                 <div id="txtHint">
-                    <h3>MARWAN MBARKI - ABERTAY UNIVESITY - YEAR 3</h3><br>
+                    <h3>MARWAN MBARKI - ABERTAY UNIVESITY - Jquery Login Application</h3><br>
                     <hr>
-                    <h4>Welcome to RIA weekly blog, I in this blog I will share best practice about "Rich Internet
-                        Application",
-                        I'll describe and introduce almost of the programming languages used to built a "Rich Internet
-                        Application".
+                    <h4>Welcome to jquery Login Application.
                     </h4>
                     <br>
                     <ul class="a">
