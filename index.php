@@ -79,15 +79,7 @@ insert_film();
                     <h4>Welcome to jquery Login Application.
                     </h4>
                     <br>
-                    <ul class="a">
-                        <li>RIA</li>
-                        <li>JSON vs XML</li>
-                        <li>AJAX</li>
-                        <li>jQuery</li>
-                        <li>Firebase</li>
-                        <li>Angular JS</li>
-                        <li>Mobile Revolution</li>
-                    </ul>
+                    
                 </div>
             </div>
         </div>
