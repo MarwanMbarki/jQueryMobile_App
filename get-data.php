@@ -22,6 +22,7 @@ $row = mysql_fetch_assoc($res);
 if ($num_row == 1) {
     echo 'true';
     $_SESSION['email'] = $row['email'];
+    $_SESSION['name'] = $row['name'];
     $_SESSION['oId'] = $row['orgid'];
     $_SESSION['auth'] = $row['oauth'];
 } else {
