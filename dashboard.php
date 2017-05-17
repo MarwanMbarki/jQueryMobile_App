@@ -1,3 +1,8 @@
+<?php
+//Open Session
+session_start();
+$email = $_SESSION['email'];
+?>
 <!DOCTYPE html>
 <!-- CopyRight Marwan Mbarki -->
 <html>
@@ -20,6 +25,8 @@
 
     <div data-role="main" class="ui-content">
         <p>Welcome to Dashboard, tou have successfully logged in.</p>
+        <!-- Echo the Email Variable-->
+        <p>Your Email: <?php  echo $email; ?></p>
     </div>
 
 
