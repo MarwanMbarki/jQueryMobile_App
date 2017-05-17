@@ -23,6 +23,8 @@ if ($num_row == 1) {
     echo 'true';
     //Create Session for those three variable
     $_SESSION['email'] = $row['email'];
+    //Create Email Variable
+    
     //Get The user ID
     $_SESSION['oId'] = $row['orgid'];
     $_SESSION['auth'] = $row['oauth'];
