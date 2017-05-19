@@ -26,7 +26,7 @@ if ($num_row == 1) {
     //Create Session for those three variable
     $_SESSION['email'] = $email;
     //Get The user ID
-    $_SESSION['Id'] = $row['orgid'];
+    $_SESSION['uId'] = $row['ou_id'];
 } else {
     echo 'false';
 }
