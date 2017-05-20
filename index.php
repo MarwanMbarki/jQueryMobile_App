@@ -2,7 +2,8 @@
 <!--suppress ALL -->
 <html>
 <?php
-require("api/api.php");
+//Call the API
+require("api.php");
 insert_film();
 ?>
 <head>
