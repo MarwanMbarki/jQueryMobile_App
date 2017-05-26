@@ -26,7 +26,7 @@ $email = $_SESSION['email'];
 
     <div data-role="main" class="ui-content">
         <p>Welcome to Dashboard, tou have successfully logged in.</p>
-        <!-- Echo the Email Variable-->
+        <!-- Print the Email -->
         <p>Your Email: <?php  echo $email; ?></p>
     </div>
 
