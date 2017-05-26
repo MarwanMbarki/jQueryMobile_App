@@ -5,7 +5,7 @@ session_start();
 $email = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
-<!-- CopyRight Marwan Mbarki -->
+<!-- CopyRight Marwan Mbarki 2017 -->
 <html>
 <head>
     <!-- Include meta tag to ensure proper rendering and touch zooming -->
