@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#login").click(function () {
-        email = $("#email").val();
-        password = $("#password").val();
+        var email = $("#email").val();
+        var password = $("#password").val();
         $.ajax({
             type: "POST",
             url: "get-data.php",
