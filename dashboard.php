@@ -32,7 +32,7 @@ $email = $_SESSION['email'];
 
 
     <div data-role="footer">
-        <h1>Footer Text</h1>
+        <h1>Footer - CopyRight 2017</h1>
     </div>
 </div>
 
