@@ -1,2 +1,2 @@
 # jQuery Login Form
-* use jquery to login
+* Simple jquery login application
