@@ -1,3 +1,4 @@
+//Email and password verifiction
 $(document).ready(function () {
     $("#login").click(function () {
         var email = $("#email").val();
