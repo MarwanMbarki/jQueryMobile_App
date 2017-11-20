@@ -77,7 +77,7 @@ insert_film();
                 <div id="txtHint">
                     <h3>MARWAN MBARKI - ABERTAY UNIVESITY - Jquery Login Application</h3><br>
                     <hr>
-                    <h4>Welcome to jquery Login Application.
+                    <h4>Jquery Login Application.
                     </h4>
                     <br>
                     
