@@ -1,5 +1,5 @@
 <?php
-//Open Session
+//Start Session
 session_start();
 //Call the varianle Email from the login page
 $email = $_SESSION['email'];
