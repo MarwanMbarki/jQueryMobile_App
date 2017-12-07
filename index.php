@@ -75,7 +75,7 @@ insert_film();
         <div class="row">
             <div class="col-md-12 well">
                 <div id="txtHint">
-                    <h3>MARWAN MBARKI - ABERTAY UNIVESITY - Jquery Login Application</h3><br>
+                    <h3>MARWAN MBARKI - Jquery Login Application</h3><br>
                     <hr>
                     <h4>Jquery Login Application.
                     </h4>
@@ -92,7 +92,7 @@ insert_film();
         <div class="row">
             <div class="navbar navbar-default navbar-static-bottom">
                 <p class="navbar-text pull-left">
-                    Built by - MARWAN MBARKI
+                    CopyRight 2017 - MARWAN MBARKI
                 </p>
             </div>
         </div>
