@@ -10,7 +10,7 @@ insert_film();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Page Title -->
-    <title>Weekly Blog - Bcs Web Dev - Year 3</title>
+    <title>Weekly Blog/title>
     <!-- Page Description -->
     <!-- jQuerry stylesheet>  -->
     <script src="js/jquery.min.js"></script>
