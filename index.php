@@ -11,7 +11,6 @@ insert_film();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
     <title>Blog/title>
-    <!-- Page Description -->
     <!-- jQuerry stylesheet>  -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
