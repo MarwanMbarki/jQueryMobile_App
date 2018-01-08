@@ -2,7 +2,7 @@
 <!--suppress ALL -->
 <html>
 <?php
-//Call the API
+//Call API
 require("api.php");
 insert_film();
 ?>
