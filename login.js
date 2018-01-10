@@ -17,7 +17,7 @@ $(document).ready(function () {
             },
             beforeSend: function () {
                 $("#add_err").css('display', 'inline', 'important');
-                $("#add_err").html("<img src='images/ajax-loader.gif' /> Loading...")
+                $("#add_err").html("<img src='images/ajax-loader.gif' /> Loading.....")
             }
         });
         return false;
